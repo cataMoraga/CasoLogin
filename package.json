@@ -1,0 +1,24 @@
+{
+  "name": "casologin",
+  "version": "1.0.0",
+  "description": "se valida login mediante cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cataMoraga/CasoLogin.git"
+  },
+  "author": "catalina moraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cataMoraga/CasoLogin/issues"
+  },
+  "homepage": "https://github.com/cataMoraga/CasoLogin#readme",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "cypress": "^12.3.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
